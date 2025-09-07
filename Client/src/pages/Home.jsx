@@ -8,33 +8,33 @@ const Home = () => {
     const features = [
         {
             icon: <FaShieldAlt />,
-            title: 'JWT Authentication',
-            description: 'Secure, stateless authentication using JSON Web Tokens stored in HTTPOnly cookies.'
+            title: 'Dual-Token System',
+            description: 'Advanced security with access tokens and refresh tokens stored in HTTPOnly cookies for maximum protection.'
         },
         {
             icon: <div className="flex space-x-2"><FaGoogle /><FaGithub /></div>,
-            title: 'OAuth 2.0 Logins',
-            description: 'Seamless integration with third-party providers like Google and GitHub for social logins.'
+            title: 'OAuth 2.0 Integration',
+            description: 'Complete Google and GitHub OAuth integration with seamless social login experience.'
         },
         {
             icon: <FaEnvelope />,
-            title: 'Email Verification',
-            description: 'Built-in OTP system for new user account verification to ensure valid emails.'
+            title: 'Email Verification & OTP',
+            description: 'Secure OTP-based email verification system with automated account activation workflow.'
         },
         {
             icon: <FaKey />,
-            title: 'Password Reset',
-            description: 'A complete and secure "Forgot Password" flow using OTPs sent via email.'
+            title: 'Password Reset Flow',
+            description: 'Complete password recovery system with OTP verification and secure password reset functionality.'
         },
         {
             icon: <FaReact />,
-            title: 'Ready-to-Use UI',
-            description: 'A full suite of responsive React components for all authentication pages.'
+            title: 'Auto Token Refresh',
+            description: 'Intelligent token refresh mechanism with automatic retry logic and seamless user experience.'
         },
         {
             icon: <FaRoute />,
-            title: 'Protected Routes',
-            description: 'Backend middleware and frontend logic to easily protect routes for authenticated users.'
+            title: 'Protected Routes & Context',
+            description: 'React Context-based authentication state management with protected route components.'
         },
     ];
 
@@ -55,7 +55,7 @@ const Home = () => {
                         <span className="text-primary">MERN</span> Stack
                     </h1>
                     <p className="mt-4 text-lg md:text-xl text-text-light max-w-3xl mx-auto">
-                        <span className="font-bold text-primary">STAK</span> is a feature-rich starter kit that provides a rock-solid foundation for your next project, with JWT, OAuth, and more, right out of the box.
+                        A production-ready authentication system featuring dual-token security, OAuth integration, and comprehensive user management built for modern web applications.
                     </p>
                     <div className="mt-8 flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4">
                         <Link to="/register" className="w-full sm:w-auto px-8 py-3 bg-primary bg-black text-white rounded-md text-lg font-semibold shadow-md hover:bg-primary-hover transition-all duration-300 hover:shadow-lg hover:scale-105">
@@ -72,8 +72,8 @@ const Home = () => {
             <section id="features" className="py-20 px-4">
                 <div className="container mx-auto">
                     <div className="text-center mb-12">
-                        <h2 className="text-3xl md:text-4xl font-bold">Everything You Need to Launch</h2>
-                        <p className="mt-2 text-text-light">A complete solution for modern user authentication.</p>
+                        <h2 className="text-3xl md:text-4xl font-bold">Enterprise-Grade Authentication</h2>
+                        <p className="mt-2 text-text-light">Secure, scalable, and feature-complete authentication system.</p>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {features.map((feature, index) => (
