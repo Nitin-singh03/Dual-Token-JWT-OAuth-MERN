@@ -61,7 +61,7 @@ const Home = () => {
                         <Link to="/register" className="w-full sm:w-auto px-8 py-3 bg-primary bg-black text-white rounded-md text-lg font-semibold shadow-md hover:bg-primary-hover transition-all duration-300 hover:shadow-lg hover:scale-105">
                             Get Started
                         </Link>
-                        <a href="https://github.com/Nitin-singh03/MERN-OAuth-JWT.git" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto px-8 py-3 bg-text-main text-white rounded-md text-lg font-semibold shadow-md hover:bg-slate-700 bg-black transition-all duration-300 hover:shadow-lg hover:scale-105">
+                        <a href="https://github.com/Nitin-singh03/Dual-Token-JWT-OAuth-MERN.git" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto px-8 py-3 bg-text-main text-white rounded-md text-lg font-semibold shadow-md hover:bg-slate-700 bg-black transition-all duration-300 hover:shadow-lg hover:scale-105">
                             View on GitHub
                         </a>
                     </div>
