@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-gray-50 text-gray-900;
+}
+
+.auth-container {
+  @apply min-h-screen flex flex-col items-center justify-center bg-gray-50 px-4 sm:px-6 lg:px-8;
+}
+
+.form-container {
+  @apply w-full max-w-md space-y-8 p-10 bg-white rounded-xl shadow-lg z-10;
+}
+
+.form-title {
+  @apply text-center text-3xl font-extrabold text-gray-900;
+}
+
+.social-login-divider {
+  @apply flex items-center justify-center my-6;
+}
+
+.social-login-divider .line {
+  @apply h-px w-full bg-gray-300;
+}
+
+.social-login-divider .text {
+  @apply px-3 text-sm font-medium text-gray-500 bg-white;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
